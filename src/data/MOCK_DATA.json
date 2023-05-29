@@ -1,0 +1,93 @@
+[
+    {
+        "id": 1,
+        "nombre": "ZAPATILLAS ADIDAS LITE RACER 2.0 MUJER NEGRA",
+        "precio": 9499,
+        "img": "../img/productos/calzados/zapatillas-adidas.jpg",
+        "alt": "zapatillas-adidas",
+        "descripcion": "Lorem ipsum ...",
+        "stock": 20,
+        "category": "Calzados"
+    },
+    {
+        "id": 2,
+        "nombre": "VESTIDO CONVERSE FLORAL MUJER NEGRO",
+        "precio": 5199,
+        "img": "../img/productos/indumentaria/vestido-converse-floral-mujer.jpg",
+        "alt": "vestido-converse-floral-mujer",
+        "descripcion": "Lorem ipsum ...",
+        "stock": 20,
+        "category": "Indumentaria"
+    },
+    {
+        "id": 3,
+        "nombre": "PALETA DE PADEL DUNLOP AERO STAR TEAM",
+        "precio": 33840,
+        "img": "../img/productos/accesorios/paleta-de-padel-dunlop-aero-star-team.jpg",
+        "alt": "paleta-de-padel-dunlop-aero-star-team",
+        "descripcion": "Lorem ipsum ...",
+        "stock": 20,
+        "category": "Accesorios"
+    },
+    {
+        "id": 4,
+        "nombre": "REMERA ADIDAS ENTRENAMIENTO EGLE MUJER BLANCA",
+        "precio": 6499,
+        "img": "../img/productos/indumentaria/remera-adidas-mujer-blanca.jpg",
+        "alt": "remera-adidas-mujer-blanca",
+        "descripcion": "Lorem ipsum ...",
+        "stock": 20,
+        "category": "Indumentaria"
+    },
+    {
+        "id": 5,
+        "nombre": "SANDALIA CROCS CLASSIC MUJER NARANJA",
+        "precio": 5299,
+        "img": "../img/productos/calzados/sandalia-crocs-classic-mujer.jpg",
+        "alt": "sandalia-crocs-classic-mujer",
+        "descripcion": "Lorem ipsum ...",
+        "stock": 20,
+        "category": "Calzados"
+    },
+    {
+        "id": 6,
+        "nombre": "PANTALON TOPPER ENTRENAMIENTO MUJER NEGRO",
+        "precio": 6199,
+        "img": "../img/productos/indumentaria/pantalon-topper-entrenamiento-mujer-negro.jpg",
+        "alt": "pantalon-topper-entrenamiento-mujer-negro",
+        "descripcion": "Lorem ipsum ...",
+        "stock": 20,
+        "category": "Indumentaria"
+    },
+    {
+        "id": 7,
+        "nombre": "CANILLERAS DE FUTBOL ADIDAS X 20 CLUB BLANCA",
+        "precio": 2299,
+        "img": "../img/productos/accesorios/canilleras-de-futbol.jpg",
+        "alt": "canilleras-de-futbol",
+        "descripcion": "Lorem ipsum ...",
+        "stock": 20,
+        "category": "Accesorios"
+    },
+    {
+        "id": 8,
+        "nombre": "ZAPATILLAS TOPPER CAPITAN TT MUJER BLANCA",
+        "precio": 6999,
+        "img": "../img/productos/calzados/zapatillas-topper-blanca.jpg",
+        "alt": "zapatillas-topper-blanca",
+        "descripcion": "Lorem ipsum ...",
+        "stock": 20,
+        "category": "Calzados"
+    },
+    {
+        "id": 9,
+        "nombre": "MOCHILA PUMA ACADEMY MUJER AZUL",
+        "precio": 5399,
+        "img": "../img/productos/accesorios/mochila-puma-academy.jpg",
+        "alt": "mochila-puma-academy",
+        "descripcion": "Lorem ipsum ...",
+        "stock": 20,
+        "category": "Accesorios"
+    }
+]
+

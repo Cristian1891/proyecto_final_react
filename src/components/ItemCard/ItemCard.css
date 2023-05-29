@@ -1,0 +1,7 @@
+.btn-custom{
+    @apply inline-block px-6 py-4 rounded-full shadow-sm font-medium transition duration-700 ease-in-out transform hover:scale-105
+}
+
+.btn-primary{
+    @apply bg-purple-600 text-black hover:bg-purple-700
+}
