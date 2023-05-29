@@ -7,7 +7,7 @@ export const ItemList = ({items, categoria}) => {
     {
       categoria
          ? <h1 className='text-center my-5 text-2xl pt-24'>{categoria}</h1>
-         : <h1 className='text-center my-5 text-2xl pt-24'>Productos Deportivos</h1>
+         : <h1 className='text-center my-5 text-2xl pt-24'>Productos Deportivos Marathon</h1>
     }
       <hr/>
 
