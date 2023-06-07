@@ -10,8 +10,8 @@ export const Error404 = () => {
         <h1>Error 404</h1>
         {
             user.logged
-                ? <Link to="/">Redirijase al home haciendo click </Link>
-                : <Link to="/login">Redirijase al login haciendo click </Link>
+                ? <Link to="/">Redirijase al home haciendo click en home</Link>
+                : <Link to="/login">Redirijase al login haciendo click en login </Link>
         }
     </>
   )
