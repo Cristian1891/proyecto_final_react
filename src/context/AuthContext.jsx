@@ -48,13 +48,13 @@ export const AuthProvider = ({children}) => {
                     email: user.email,
                     logged: true
                 })
-                navigate('/')
+                // navigate('/')
             } else {
                 setUser({
                     email: null,
                     logged: false
                 })
-                navigate('/login')
+                // navigate('/login')
             }
         })
     }, [])
