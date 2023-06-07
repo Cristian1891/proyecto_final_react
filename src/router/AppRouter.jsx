@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom"
+import { BrowserRouter, Routes, Route, Navigate, HashRouter } from "react-router-dom"
 import { ItemListContainer } from "../components/ItemListContainer/ItemListContainer";
 import { ItemDetailContainer } from '../components/ItemDetailContainer/ItemDetailContainer';
 import { Cart } from '../components/Cart/Cart';
@@ -17,7 +17,9 @@ export const AppRouter = () => {
 
   return ( 
     <>
-        <BrowserRouter>
+        
+        {/* <BrowserRouter> */}
+        <HashRouter>
         { 
             user.logged
             ? <>
@@ -41,8 +43,8 @@ export const AppRouter = () => {
                 </Routes>
         }
         
-        
-        </BrowserRouter>
+        </HashRouter>
+        {/* </BrowserRouter> */}
     </>
   )
 }
