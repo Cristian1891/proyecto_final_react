@@ -16,13 +16,10 @@ export const AuthProvider = ({children}) => {
 
     const login = (values) => {
         signInWithEmailAndPassword(auth, values.email, values.password)
-            .then(() => {
-                // Redirecciona a la ruta deseada después de la autenticación exitosa
-                navigate('/');
-            })
+             
             .catch(e => {
                 console.log(e)
-                navigate('/login')
+                
             })
 
     }
@@ -51,11 +48,13 @@ export const AuthProvider = ({children}) => {
                     email: user.email,
                     logged: true
                 })
+                navigate('/')
             } else {
                 setUser({
                     email: null,
                     logged: false
                 })
+                navigate('/login')
             }
         })
     }, [])
