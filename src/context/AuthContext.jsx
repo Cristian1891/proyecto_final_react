@@ -1,13 +1,11 @@
 import { createContext, useEffect, useState } from "react";
 import { signInWithPopup, createUserWithEmailAndPassword, signInWithEmailAndPassword, onAuthStateChanged, signOut } from "firebase/auth";
 import { auth, provider } from "../firebase/config";
-import { useNavigate } from 'react-router-dom';
 
 export const AuthContext = createContext()
 
 export const AuthProvider = ({children}) => {
 
-    const history = useNavigate();
 
     const [user, setUser] = useState({
         email: null,
@@ -48,13 +46,11 @@ export const AuthProvider = ({children}) => {
                     email: user.email,
                     logged: true
                 })
-                // navigate('/')
             } else {
                 setUser({
                     email: null,
                     logged: false
                 })
-                // navigate('/login')
             }
         })
     }, [])
