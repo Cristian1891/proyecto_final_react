@@ -1,6 +1,7 @@
-/* /index.html 200
 /category/* /category/:categoryId    200
 /item/* /item/:itemId 200
 /cart /cart 200
 /checkout /checkout 200
 /register /register 200
+/login /login 200
+/ / 200
