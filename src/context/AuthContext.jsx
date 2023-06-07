@@ -1,13 +1,13 @@
 import { createContext, useEffect, useState } from "react";
 import { signInWithPopup, createUserWithEmailAndPassword, signInWithEmailAndPassword, onAuthStateChanged, signOut } from "firebase/auth";
 import { auth, provider } from "../firebase/config";
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 export const AuthContext = createContext()
 
 export const AuthProvider = ({children}) => {
 
-    const history = useHistory();
+    const history = useNavigate();
 
     const [user, setUser] = useState({
         email: null,
@@ -18,7 +18,7 @@ export const AuthProvider = ({children}) => {
         signInWithEmailAndPassword(auth, values.email, values.password)
             .then(() => {
                 // Redirecciona a la ruta deseada después de la autenticación exitosa
-                history.push('/');
+                navigate('/');
             })
             .catch(e => console.log(e))
 
