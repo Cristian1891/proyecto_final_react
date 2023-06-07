@@ -20,7 +20,10 @@ export const AuthProvider = ({children}) => {
                 // Redirecciona a la ruta deseada después de la autenticación exitosa
                 navigate('/');
             })
-            .catch(e => console.log(e))
+            .catch(e => {
+                console.log(e)
+                navigate('/login')
+            })
 
     }
 
