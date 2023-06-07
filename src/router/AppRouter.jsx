@@ -15,7 +15,7 @@ export const AppRouter = () => {
 
     const { user } = useContext(AuthContext)
 
-  return (
+  return ( 
     <>
         <BrowserRouter>
         { 
